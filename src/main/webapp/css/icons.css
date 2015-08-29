@@ -1,0 +1,304 @@
+/* CSS Document */
+.ico_null {
+	display: inline-block;
+	width:24px;
+	height:24px;
+}
+
+.ico_common {
+	display: inline-block;
+	vertical-align: text-top;
+	color: darkblue;
+	font-weight: bold;
+	text-align: center;
+	width:24px;
+	height:24px;
+	background-image:url(../images/table_ico.png);
+	/*background-repeat:repeat-x;
+	background-attachment:fixed;*/	
+}
+
+/* 查看_不可用 */
+.ico_view_disabled {
+	background-position:0px 0px;
+}
+
+/* 查看_可用 */
+.ico_view_enabled {
+	background-position:24px 0px;
+}
+
+/* 打印_不可用 */
+.ico_print_disabled {
+	background-position:0px 24px;
+}
+
+/* 打印_可用 */
+.ico_print_enabled {
+	background-position:24px 24px;
+}
+
+/* 解付保证金_不可用 */
+.ico_solution_disabled {
+	background-position:0px 49px;
+}
+
+/* 解付保证金_可用 */
+.ico_solution_enabled {
+	background-position:24px 49px;
+}
+
+/* 存出保证金_不可用 */
+.ico_refundable_disabled {
+	background-position:0px 74px;
+}
+
+/* 存出保证金_可用 */
+.ico_refundable_enabled {
+	background-position:24px 74px;
+}
+
+/* 风险上报_不可用 */
+.ico_risk_disabled {
+	background-position:0px 99px;
+}
+
+/* 风险上报_可用 */
+.ico_risk_enabled {
+	background-position:24px 99px;
+}
+
+/* 审查_不可用 */
+.ico_check_disabled {
+	background-position:0px 124px;
+}
+
+/* 审查_可用 */
+.ico_check_enabled {
+	background-position:24px 124px;
+}
+
+/* 设置_不可用 */
+.ico_setting_disabled {
+	background-position:0px 149px;
+}
+
+/* 设置_可用 */
+.ico_setting_enabled {
+	background-position:24px 149px;
+}
+
+/* 确认_不可用 */
+.ico_ok_disabled {
+	background-position:0px 174px;
+}
+
+/* 确认_可用 */
+.ico_ok_enabled {
+	background-position:24px 174px;
+}
+
+/* 删除_不可用 */
+.ico_delete_disabled {
+	background-position:0px 199px;
+}
+
+/* 删除_可用 */
+.ico_delete_enabled {
+	background-position:24px 199px;
+}
+
+/* 添加_不可用 */
+.ico_add_disabled {
+	background-position:0px 224px;
+}
+
+/* 添加_可用 */
+.ico_add_enabled {
+	background-position:24px 224px;
+}
+
+/* 撤下_不可用 */
+.ico_remove_disabled {
+	background-position:0px 249px;
+}
+
+/* 撤下_可用 */
+.ico_remove_enabled {
+	background-position:24px 249px;
+}
+
+/* 归档_不可用 */
+.ico_filing_disabled {
+	background-position:0px 274px;
+}
+
+/* 归档_可用 */
+.ico_filing_enabled {
+	background-position:24px 274px;
+}
+
+/* 编辑_不可用 */
+.ico_edit_disabled {
+	background-position:0px 299px;
+}
+
+/* 编辑_可用 */
+.ico_edit_enabled {
+	background-position:24px 299px;
+}
+
+/* 档案提交_不可用 */
+.ico_submit_disabled {
+	background-position:0px 324px;
+}
+
+/* 档案提交_可用 */
+.ico_submit_enabled {
+	background-position:24px 324px;
+}
+
+/* 补充资料_不可用 */
+.ico_supplement_disabled {
+	background-position:0px 349px;
+}
+
+/* 补充资料_可用 */
+.ico_supplement_enabled {
+	background-position:24px 349px;
+}
+
+/* 合同_不可用 */
+.ico_agreement_disabled {
+	background-position:0px 374px;
+}
+
+/* 合同_可用 */
+.ico_agreement_enabled {
+	background-position:24px 374px;
+}
+
+/* 申请_不可用 */
+.ico_apply_disabled {
+	background-position:0px 399px;
+}
+
+/* 申请_可用 */
+.ico_apply_enabled {
+	background-position:24px 399px;
+}
+
+/* 上移_不可用 */
+.ico_up_disabled {
+	background-position:0px 424px;
+}
+
+/* 上移_可用 */
+.ico_up_enabled {
+	background-position:24px 424px;
+}
+
+/* 下移_不可用 */
+.ico_down_disabled {
+	background-position:0px 449px;
+}
+
+/* 下移_可用 */
+.ico_down_enabled {
+	background-position:24px 449px;
+}
+
+/* 收费操作_不可用 */
+.ico_cash_disabled {
+	background-position:0px 474px;
+}
+
+/* 收费操作_可用 */
+.ico_cash_enabled {
+	background-position:24px 474px;
+}
+
+/* 开户登记_不可用 */
+.ico_register_disabled {
+	background-position:0px 499px;
+}
+
+/* 开户登记_可用 */
+.ico_register_enabled {
+	background-position:24px 499px;
+}
+
+/* 转出_不可用 */
+.ico_distract_disabled {
+	background-position:0px 524px;
+}
+
+/* 转出_可用 */
+.ico_distract_enabled {
+	background-position:24px 524px;
+}
+
+/* 扫描_不可用 */
+.ico_scan_disabled {
+	background-position:0px 549px;
+}
+
+/* 扫描_可用 */
+.ico_scan_enabled {
+	background-position:24px 549px;
+}
+
+/* 短信_不可用 */
+.ico_message_disabled {
+	background-position:0px 574px;
+}
+
+/* 短信_可用 */
+.ico_message_enabled {
+	background-position:24px 574px;
+}
+
+/* 提醒_不可用 */
+.ico_remind_disabled {
+	background-position:0px 599px;
+}
+
+/* 提醒_可用 */
+.ico_remind_enabled {
+	background-position:24px 599px;
+}
+
+/* 决议变更_不可用 */
+.ico_refresh_disabled {
+	background-position:0px 624px;
+}
+
+/* 决议变更_可用 */
+.ico_refresh_enabled {
+	background-position:24px 624px;
+}
+
+/* 下载_不可用 */
+.ico_download_disabled {
+	background-position:0px 649px;
+}
+
+/* 下载_可用 */
+.ico_download_enabled {
+	background-position:24px 649px;
+}
+
+/* 上传和导入_不可用 */
+.ico_upload_disabled {
+	background-position:0px 674px;
+}
+
+/* 上传和导入_可用 */
+.ico_upload_enabled {
+	background-position:24px 674px;
+}
+
+
+
+
+

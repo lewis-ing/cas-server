@@ -1,0 +1,433 @@
+/* CSS Document */
+/* CSS Document */
+.btn-small {
+	margin-right: 5px;
+}
+
+.btn-mini {
+	margin-top: 2px;
+	margin-right: 2px;
+}
+
+.btn_common {
+	display: inline-block;
+	vertical-align: text-top;
+	color: darkblue;
+	font-weight: bold;
+	text-align: center;
+	width:24px;
+	height:24px;
+	background-image:url(../images/table_btn.png);
+	/*background-repeat:repeat-x;
+	background-attachment:fixed;*/	
+}
+
+/* 日期_正常 */
+.btn_calendar_normal {
+	background-position:0px 0px;
+}
+
+/* 日期_禁用 */
+.btn_calendar_disable {
+	background-position:24px 0px;
+}
+
+/* 日期_悬停 */
+.btn_calendar_normal:hover {
+	background-position:74px 0px;
+}
+
+/* 日期_按下 */
+.btn_calendar_normal:active {
+	background-position:49px 0px;
+}
+
+/* 确定 */
+.btn_ok_normal_hover {
+	background-position:74px 24px;
+}
+
+/* 确定_正常 */
+.btn_ok_normal {
+	background-position:0px 24px;
+}
+
+/* 确定_禁用 */
+.btn_ok_disable {
+	background-position:24px 24px;
+}
+
+/* 确定_悬停 */
+.btn_ok_normal:hover {
+	background-position:74px 24px;
+}
+
+/* 确定_按下 */
+.btn_ok_normal:active {
+	background-position:49px 24px;
+}
+
+/* 短信提醒_正常 */
+.btn_message_normal {
+	background-position:0px 49px;
+}
+
+/* 短信提醒_禁用 */
+.btn_message_disable {
+	background-position:24px 49px;
+}
+
+/* 短信提醒_悬停 */
+.btn_message_normal:hover {
+	background-position:74px 49px;
+}
+
+/* 短信提醒_按下 */
+.btn_message_normal:active {
+	background-position:49px 49px;
+}
+
+/* 打印_正常 */
+.btn_print_normal {
+	background-position:0px 74px;
+}
+
+/* 打印_禁用 */
+.btn_print_disable {
+	background-position:24px 74px;
+}
+
+/* 打印_悬停 */
+.btn_print_normal:hover {
+	background-position:74px 74px;
+}
+
+/* 打印_按下 */
+.btn_print_normal:active {
+	background-position:49px 74px;
+}
+
+/* 上传_正常 */
+.btn_upload_normal {
+	background-position:0px 99px;
+}
+
+/* 上传_禁用 */
+.btn_upload_disable {
+	background-position:24px 99px;
+}
+
+/* 上传_悬停 */
+.btn_upload_normal:hover {
+	background-position:74px 99px;
+}
+
+/* 上传_按下 */
+.btn_upload_normal:active {
+	background-position:49px 99px;
+}
+
+/* 扫描_正常 */
+.btn_scan_normal {
+	background-position:0px 124px;
+}
+
+/* 扫描_禁用 */
+.btn_scan_disable {
+	background-position:24px 124px;
+}
+
+/* 扫描_悬停 */
+.btn_scan_normal:hover {
+	background-position:74px 124px;
+}
+
+/* 扫描_按下 */
+.btn_scan_normal:active {
+	background-position:49px 124px;
+}
+
+/* 刷新_正常 */
+.btn_refresh_normal {
+	background-position:0px 149px;
+}
+
+/* 刷新_禁用 */
+.btn_refresh_disable {
+	background-position:24px 149px;
+}
+
+/* 刷新_悬停 */
+.btn_refresh_normal:hover {
+	background-position:74px 149px;
+}
+
+/* 刷新_按下 */
+.btn_refresh_normal:active {
+	background-position:49px 149px;
+}
+
+/* 更多_正常 */
+.btn_more_normal {
+	background-position:0px 174px;
+}
+
+/* 更多_禁用 */
+.btn_more_disable {
+	background-position:24px 174px;
+}
+
+/* 更多_悬停 */
+.btn_more_normal:hover {
+	background-position:74px 174px;
+}
+
+/* 更多_按下 */
+.btn_more_normal:active {
+	background-position:49px 174px;
+}
+
+/* 删除_正常 */
+.btn_delete_normal {
+	background-position:0px 199px;
+}
+
+/* 删除_禁用 */
+.btn_delete_disable {
+	background-position:24px 199px;
+}
+
+/* 删除_悬停 */
+.btn_delete_normal:hover {
+	background-position:74px 199px;
+}
+
+/* 删除_按下 */
+.btn_delete_normal:active {
+	background-position:49px 199px;
+}
+
+/* 添加_正常 */
+.btn_add_normal {
+	background-position:0px 224px;
+}
+
+/* 添加_禁用 */
+.btn_add_disable {
+	background-position:24px 224px;
+}
+
+/* 添加_悬停 */
+.btn_add_normal:hover {
+	background-position:74px 224px;
+}
+
+/* 添加_按下 */
+.btn_add_normal:active {
+	background-position:49px 224px;
+}
+
+/* 撤下_正常 */
+.btn_remove_normal {
+	background-position:0px 249px;
+}
+
+/* 撤下_禁用 */
+.btn_remove_disable {
+	background-position:24px 249px;
+}
+
+/* 撤下_悬停 */
+.btn_remove_normal:hover {
+	background-position:74px 249px;
+}
+
+/* 撤下_按下 */
+.btn_remove_normal:active {
+	background-position:49px 249px;
+}
+
+/* 导出WORD_正常 */
+.btn_word_normal {
+	background-position:0px 274px;
+}
+
+/* 导出WORD_禁用 */
+.btn_word_disable {
+	background-position:24px 274px;
+}
+
+/* 导出WORD_悬停 */
+.btn_word_normal:hover {
+	background-position:74px 274px;
+}
+
+/* 导出WORD_按下 */
+.btn_word_normal:active {
+	background-position:49px 274px;
+}
+
+/* 导出EXCWL_正常 */
+.btn_excel_normal {
+	background-position:0px 299px;
+}
+
+/* 导出EXCWL_禁用 */
+.btn_excel_disable {
+	background-position:24px 299px;
+}
+
+/* 导出EXCWL_悬停 */
+.btn_excel_normal:hover {
+	background-position:74px 299px;
+}
+
+/* 导出EXCWL_按下 */
+.btn_excel_normal:active {
+	background-position:49px 299px;
+}
+
+/* 导出PDF_正常 */
+.btn_pdf_normal {
+	background-position:0px 324px;
+}
+
+/* 导出PDF_禁用 */
+.btn_pdf_disable {
+	background-position:24px 324px;
+}
+
+/* 导出PDF_悬停 */
+.btn_pdf_normal:hover {
+	background-position:74px 324px;
+}
+
+/* 导出PDF_按下 */
+.btn_pdf_normal:active {
+	background-position:49px 324px;
+}
+
+/* 查询_正常 */
+.btn_search_normal {
+	background-position:0px 349px;
+}
+
+/* 查询_禁用 */
+.btn_search_disable {
+	background-position:24px 349px;
+}
+
+/* 查询_悬停 */
+.btn_search_normal:hover {
+	background-position:74px 349px;
+}
+
+/* 查询_按下 */
+.btn_search_normal:active {
+	background-position:49px 349px;
+}
+
+/* 处理_正常 */
+.btn_process_normal {
+	background-position:0px 349px;
+}
+
+/* 处理_禁用 */
+.btn_process_disable {
+	background-position:24px 349px;
+}
+
+/* 处理_悬停 */
+.btn_process_normal:hover {
+	background-position:74px 349px;
+}
+
+/* 处理_按下 */
+.btn_process_normal:active {
+	background-position:49px 349px;
+}
+
+/* 挂起_正常 */
+.btn_suspend_normal {
+	background-position:0px 349px;
+}
+
+/* 挂起_禁用 */
+.btn_suspend_disable {
+	background-position:24px 349px;
+}
+
+/* 挂起_悬停 */
+.btn_suspend_normal:hover {
+	background-position:74px 349px;
+}
+
+/* 挂起_按下 */
+.btn_suspend_normal:active {
+	background-position:49px 349px;
+}
+
+/* 恢复_正常 */
+.btn_recover_normal {
+	background-position:0px 349px;
+}
+
+/* 恢复_禁用 */
+.btn_recover_disable {
+	background-position:24px 349px;
+}
+
+/* 恢复_悬停 */
+.btn_recover_normal:hover {
+	background-position:74px 349px;
+}
+
+/* 恢复_按下 */
+.btn_recover_normal:active {
+	background-position:49px 349px;
+}
+
+/* 重置_正常 */
+.btn_reset_normal {
+	background-position:0px 349px;
+}
+
+/* 重置_禁用 */
+.btn_reset_disable {
+	background-position:24px 349px;
+}
+
+/* 重置_悬停 */
+.btn_reset_normal:hover {
+	background-position:74px 349px;
+}
+
+/* 重置_按下 */
+.btn_reset_normal:active {
+	background-position:49px 349px;
+}
+
+/* 接受_正常 */
+.btn_accept_normal {
+	background-position:0px 349px;
+}
+
+/* 接受_禁用 */
+.btn_accept_disable {
+	background-position:24px 349px;
+}
+
+/* 接受_悬停 */
+.btn_accept_normal:hover {
+	background-position:74px 349px;
+}
+
+/* 接受_按下 */
+.btn_accept_normal:active {
+	background-position:49px 349px;
+}
+
+
+
+
+

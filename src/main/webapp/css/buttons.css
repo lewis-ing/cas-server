@@ -1,0 +1,584 @@
+.btn_b_common {
+	margin-right: 5px;
+	display: inline-block;
+	width:100px;
+	height:24px;
+	background-image:url(../images/btn_b.png);
+	vertical-align: text-top;
+	color: darkblue;
+	text-align: center;
+}
+
+.btn_b_common span{
+	color:white;
+	display: inline-block;
+	margin-top:4px;
+}
+
+/* 保存草稿_正常 */
+.btn_b_draft {
+	background-position:0px 0px;
+}
+
+/* 保存草稿_禁用 */
+.btn_b_draft_disable {
+	background-position:-303px 0px;
+}
+
+/* 保存草稿_悬停 */
+.btn_b_draft:hover {
+	background-position:-101px 0px;
+}
+
+/* 保存草稿_按下 */
+.btn_b_draft:active {
+	background-position:-202px 0px;
+}
+
+/* 保存_正常 */
+.btn_b_save {
+	background-position: 0px -25px;
+}
+
+/* 保存_禁用 */
+.btn_b_save_disable {
+	background-position: -303px -25px;
+}
+
+/* 保存_悬停 */
+.btn_b_save:hover {
+	background-position: -101px -25px;
+}
+
+/* 保存_按下 */
+.btn_b_save:active {
+	background-position: -202px -25px;
+}
+
+/* 上报项目_正常 */
+.btn_b_report {
+	background-position: 0px -50px;
+}
+
+/* 上报项目_禁用 */
+.btn_b_report_disable {
+	background-position: -303px -50px;
+}
+
+/* 上报项目_悬停 */
+.btn_b_report:hover {
+	background-position: -101px -50px;
+}
+
+/* 上报项目_按下 */
+.btn_b_report:active {
+	background-position: -202px -50px;
+}
+
+/* 查询_正常 */
+.btn_b_search {
+	background-position: 0px -75px;
+}
+
+/* 查询_禁用 */
+.btn_b_search_disable {
+	background-position: -303px -75px;
+}
+
+/* 查询_悬停 */
+.btn_b_search:hover {
+	background-position: -101px -75px;
+}
+
+/* 查询_按下 */
+.btn_b_search:active {
+	background-position: -202px -75px;
+}
+
+/* 确认发送_正常 */
+.btn_b_enter {
+	background-position: 0px -100px;
+}
+
+/* 确认发送_禁用 */
+.btn_b_enter_disable {
+	background-position: -303px -100px;
+}
+
+/* 确认发送_悬停 */
+.btn_b_enter:hover {
+	background-position: -101px -100px;
+}
+
+/* 确认发送_按下 */
+.btn_b_enter:active {
+	background-position: -202px -100px;
+}
+
+/* 批量上传_正常 */
+.btn_b_upload {
+	background-position:0px -125px;
+}
+
+/* 批量上传_禁用 */
+.btn_b_upload_disable {
+	background-position:-303px -125px;
+}
+
+/* 批量上传_悬停 */
+.btn_b_upload:hover {
+	background-position:-101px -125px;
+}
+
+/* 批量上传_按下 */
+.btn_b_upload:active {
+	background-position:-202px -125px;
+}
+
+/* 批量扫描_正常 */
+.btn_b_scan {
+	background-position:0px -150px;
+}
+
+/* 批量扫描_禁用 */
+.btn_b_scan_disable {
+	background-position:-303px -150px;
+}
+
+/* 批量扫描_悬停 */
+.btn_b_scan:hover {
+	background-position:-101px -150px;
+}
+
+/* 批量扫描_按下 */
+.btn_b_scan:active {
+	background-position:-202px -150px;
+}
+
+/* 返回_正常 */
+.btn_b_return {
+	background-position:0px -175px;
+}
+
+/* 返回_禁用 */
+.btn_b_return_disable {
+	background-position:-303px -175px;
+}
+
+/* 返回_悬停 */
+.btn_b_return:hover {
+	background-position:-101px -175px;
+}
+
+/* 返回_按下 */
+.btn_b_return:active {
+	background-position:-202px -175px;
+}
+
+/* 新增_正常 */
+.btn_b_new {
+	background-position:0px -200px;
+}
+
+/* 新增_禁用 */
+.btn_b_new_disable {
+	background-position:-303px -200px;
+}
+
+/* 新增_悬停 */
+.btn_b_new:hover {
+	background-position:-101px -200px;
+}
+
+/* 新增_按下 */
+.btn_b_new:active {
+	background-position:-202px -200px;
+}
+/* 放弃上报_正常 */
+.btn_b_giveup {
+	background-position:0px -225px;
+}
+
+/* 放弃上报_禁用 */
+.btn_b_giveup_disable {
+	background-position:-303px -225px;
+}
+
+/* 放弃上报_悬停 */
+.btn_b_giveup:hover {
+	background-position:-101px -225px;
+}
+
+/* 放弃上报_按下 */
+.btn_b_giveup:active {
+	background-position:-202px -225px;
+}
+/* 回绝_正常 */
+.btn_b_refuse {
+	background-position:0px -250px;
+}
+
+/* 回绝_禁用 */
+.btn_b_refuse_disable {
+	background-position:-303px -250px;
+}
+
+/* 回绝_悬停 */
+.btn_b_refuse:hover {
+	background-position:-101px -250px;
+}
+
+/* 回绝_按下 */
+.btn_b_refuse:active {
+	background-position:-202px -250px;
+}
+/* 取消_正常 */
+.btn_b_cancle {
+	background-position:0px -275px;
+}
+
+/* 取消_禁用 */
+.btn_b_cancle_disable {
+	background-position:-303px -275px;
+}
+
+/* 取消_悬停 */
+.btn_b_cancle:hover {
+	background-position:-101px -275px;
+}
+
+/* 取消_按下 */
+.btn_b_cancle:active {
+	background-position:-202px -275px;
+}
+/* 批量删除_正常 */
+.btn_b_delete {
+	background-position:0px -300px;
+}
+
+/* 批量删除_禁用 */
+.btn_b_delete_disable {
+	background-position:-303px -300px;
+}
+
+/* 批量删除_悬停 */
+.btn_b_delete:hover {
+	background-position:-101px -300px;
+}
+
+/* 批量删除_按下 */
+.btn_b_delete:active {
+	background-position:-202px -300px;
+}
+/* 封存_正常 */
+.btn_b_close {
+	background-position:0px -325px;
+}
+
+/* 封存_禁用 */
+.btn_b_close_disable {
+	background-position:-303px -325px;
+}
+
+/* 封存_悬停 */
+.btn_b_close:hover {
+	background-position:-101px -325px;
+}
+
+/* 封存_按下 */
+.btn_b_close:active {
+	background-position:-202px -300px;
+}
+/* 决议变更_正常 */
+.btn_b_refresh {
+	background-position:0px -350px;
+}
+
+/* 决议变更_禁用 */
+.btn_b_refresh_disable {
+	background-position:-303px -350px;
+}
+
+/* 决议变更_悬停 */
+.btn_b_refresh:hover {
+	background-position:-101px -350px;
+}
+
+/* 决议变更_按下 */
+.btn_b_refresh:active {
+	background-position:-202px -350px;
+}
+/* 重置_正常 */
+.btn_b_reset {
+	background-position:0px -375px;
+}
+
+/* 重置_禁用 */
+.btn_b_reset_disable {
+	background-position:-303px -375px;
+}
+
+/* 重置_悬停 */
+.btn_b_reset:hover {
+	background-position:-101px -375px;
+}
+
+/* 重置_按下 */
+.btn_b_reset:active {
+	background-position:-202px -375px;
+}
+
+/* 提交_正常 */
+.btn_b_submit {
+	background-position:0px -400px;
+}
+
+/* 提交_禁用 */
+.btn_b_submit_disable {
+	background-position:-303px -400px;
+}
+
+/* 提交_悬停 */
+.btn_b_submit:hover {
+	background-position:-101px -400px;
+}
+
+/* 提交_按下 */
+.btn_b_submit:active {
+	background-position:-202px -400px;
+}
+
+/* 生成还款计划_正常 */
+.btn_b_genpayplan {
+	background-position:0px -425px;
+}
+
+/* 生成还款计划_禁用 */
+.btn_b_genpayplan_disable {
+	background-position:-303px -425px;
+}
+
+/* 生成还款计划_悬停 */
+.btn_b_genpayplan:hover {
+	background-position:-101px -425px;
+}
+
+/* 生成还款计划_按下 */
+.btn_b_genpayplan:active {
+	background-position:-202px -425px;
+}
+
+/* 可放款时间段_正常 */
+.btn_b_loadtimeslice {
+	background-position:0px -450px;
+}
+
+/* 可放款时间段_禁用 */
+.btn_b_loadtimeslice_disable {
+	background-position:-303px -450px;
+}
+
+/* 可放款时间段_悬停 */
+.btn_b_loadtimeslice:hover {
+	background-position:-101px -450px;
+}
+
+/* 可放款时间段_按下 */
+.btn_b_loadtimeslice:active {
+	background-position:-202px -450px;
+}
+/* 红色背景_正常 */
+.btn_b_red {
+	background-position:0px -475px;
+}
+
+/* 红色背景_禁用 */
+.btn_b_red_disable {
+	background-position:-303px -475px;
+}
+
+/* 红色背景_悬停 */
+.btn_b_red:hover {
+	background-position:-101px -475px;
+}
+
+/* 红色背景_按下 */
+.btn_b_red:active {
+	background-position:-202px -475px;
+}
+
+/* 绿色背景_正常 */
+.btn_b_green {
+	background-position:0px -500px;
+}
+
+/* 绿色背景_禁用 */
+.btn_b_green_disable {
+	background-position:-303px -500px;
+}
+
+/* 绿色背景_悬停 */
+.btn_b_green:hover {
+	background-position:-101px -500px;
+}
+
+/* 绿色背景_按下 */
+.btn_b_green:active {
+	background-position:-202px -500px;
+}
+
+
+/* 确认_正常 */
+.btn_b_confirm {
+	background-position:0px -525px;
+}
+
+/* 确认_禁用 */
+.btn_b_confirm_disable {
+	background-position:-303px -525px;
+}
+
+/* 确认_悬停 */
+.btn_b_confirm:hover {
+	background-position:-101px -525px;
+}
+
+/* 确认_按下 */
+.btn_b_confirm:active {
+	background-position:-202px -525px;
+}
+
+/* 编辑_正常 */
+.btn_b_edit {
+	background-position:0px -550px;
+}
+
+/* 编辑_禁用 */
+.btn_b_edit_disable {
+	background-position:-303px -550px;
+}
+
+/* 编辑_悬停 */
+.btn_b_edit:hover {
+	background-position:-101px -550px;
+}
+
+/* 编辑_按下 */
+.btn_b_edit:active {
+	background-position:-202px -550px;
+}
+/* 返回空值_正常 */
+.btn_b_returnnull {
+	background-position:0px -575px;
+}
+
+/* 返回空值_禁用 */
+.btn_b_returnnull_disable {
+	background-position:-303px -575px;
+}
+
+/* 返回空值_悬停 */
+.btn_b_returnnull:hover {
+	background-position:-101px -575px;
+}
+
+/* 返回空值_按下 */
+.btn_b_returnnull:active {
+	background-position:-202px -575px;
+}
+/* 同意_正常 */
+.btn_b_agree {
+	background-position:0px -600px;
+}
+
+/* 同意_禁用 */
+.btn_b_agree_disable {
+	background-position:-303px -600px;
+}
+
+/* 同意_悬停 */
+.btn_b_agree:hover {
+	background-position:-101px -600px;
+}
+
+/* 同意_按下 */
+.btn_b_agree:active {
+	background-position:-202px -600px;
+}
+/* 新增合作项目_正常 */
+.btn_b_newcorppro {
+	background-position:0px -625px;
+}
+
+/* 新增合作项目_禁用 */
+.btn_b_newcorppro_disable {
+	background-position:-303px -625px;
+}
+
+/* 新增合作项目_悬停 */
+.btn_b_newcorppro:hover {
+	background-position:-101px -625px;
+}
+
+/* 新增合作项目_按下 */
+.btn_b_newcorppro:active {
+	background-position:-202px -625px;
+}
+/* 增加子项_正常 */
+.btn_b_newsubentry {
+	background-position:0px -650px;
+}
+
+/* 增加子项_禁用 */
+.btn_b_newsubentry_disable {
+	background-position:-303px -650px;
+}
+
+/* 增加子项_悬停 */
+.btn_b_newsubentry:hover {
+	background-position:-101px -650px;
+}
+
+/* 增加子项_按下 */
+.btn_b_newsubentry:active {
+	background-position:-202px -650px;
+}
+/* 销户_正常 */
+.btn_b_cancellation {
+	background-position:0px -675px;
+}
+
+/* 销户_禁用 */
+.btn_b_cancellation_disable {
+	background-position:-303px -675px;
+}
+
+/* 销户_悬停 */
+.btn_b_cancellation:hover {
+	background-position:-101px -675px;
+}
+
+/* 销户_按下 */
+.btn_b_cancellation:active {
+	background-position:-202px -675px;
+}
+/* 存出保证金申请_正常 */
+.btn_b_refunddeposit {
+	background-position:0px -700px;
+}
+
+/* 存出保证金申请_禁用 */
+.btn_b_refunddeposit_disable {
+	background-position:-303px -700px;
+}
+
+/* 存出保证金申请_悬停 */
+.btn_b_refunddeposit:hover {
+	background-position:-101px -700px;
+}
+
+/* 存出保证金申请_按下 */
+.btn_b_refunddeposit:active {
+	background-position:-202px -700px;
+}
+
